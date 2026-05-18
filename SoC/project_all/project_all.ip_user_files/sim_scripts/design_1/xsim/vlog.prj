@@ -1,0 +1,30 @@
+verilog xil_defaultlib --include "../../../../project_all.gen/sources_1/bd/design_1/ipshared/3cbc" --include "../../../../project_all.gen/sources_1/bd/design_1/ipshared/ec67/hdl" \
+"../../../bd/design_1/ipshared/e11c/hdl/myip_rxtx_slave_lite_v1_0_S00_AXI.v" \
+"../../../bd/design_1/ipshared/e11c/hdl/myip_rxtx.v" \
+"../../../bd/design_1/ipshared/e11c/rx.v" \
+"../../../bd/design_1/ipshared/e11c/tx.v" \
+"../../../bd/design_1/ip/design_1_myip_rxtx_0_0/sim/design_1_myip_rxtx_0_0.v" \
+"../../../bd/design_1/ip/design_1_clk_wiz_0/design_1_clk_wiz_0_clk_wiz.v" \
+"../../../bd/design_1/ip/design_1_clk_wiz_0/design_1_clk_wiz_0.v" \
+"../../../bd/design_1/ip/design_1_lmb_bram_0/sim/design_1_lmb_bram_0.v" \
+"../../../bd/design_1/ip/design_1_microblaze_riscv_0_axi_periph_imp_xbar_0/sim/design_1_microblaze_riscv_0_axi_periph_imp_xbar_0.v" \
+"../../../bd/design_1/ip/design_1_microblaze_riscv_0_xlconcat_0/sim/design_1_microblaze_riscv_0_xlconcat_0.v" \
+"../../../bd/design_1/ipshared/0cff/hdl/dotmatrix_ip_slave_lite_v1_0_S00_AXI.v" \
+"../../../bd/design_1/ipshared/0cff/src/exam02_sequential_logic.v" \
+"../../../bd/design_1/ipshared/0cff/src/max7219_8x32_cntr.v" \
+"../../../bd/design_1/ipshared/0cff/hdl/dotmatrix_ip.v" \
+"../../../bd/design_1/ip/design_1_dotmatrix_ip_0_0/sim/design_1_dotmatrix_ip_0_0.v" \
+"../../../bd/design_1/ipshared/76fc/hdl/i2c_mpu_ip_slave_lite_v1_0_S00_AXI.v" \
+"../../../bd/design_1/ipshared/76fc/dsdfg.v" \
+"../../../bd/design_1/ipshared/76fc/src/mpu_cntr.v" \
+"../../../bd/design_1/ip/design_1_i2c_mpu_ip_0_0/sim/design_1_i2c_mpu_ip_0_0.v" \
+"../../../bd/design_1/ipshared/45e9/hdl/step_counter_ip_slave_lite_v1_0_S00_AXI.v" \
+"../../../bd/design_1/ipshared/45e9/src/step_counter_cntr.v" \
+"../../../bd/design_1/ipshared/45e9/hdl/step_counter_ip.v" \
+"../../../bd/design_1/ip/design_1_step_counter_ip_0_0/sim/design_1_step_counter_ip_0_0.v" \
+"../../../bd/design_1/sim/design_1.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
