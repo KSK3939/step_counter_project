@@ -1,0 +1,155 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
+| Date         : Mon May 18 16:07:22 2026
+| Host         : user18-H410M-HD3P running 64-bit Ubuntu 24.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_step_counter_ip_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_step_counter_ip_0_0 (user.org:user:step_counter_ip:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
+| Date         : Mon May 18 15:50:53 2026
+| Host         : user18-H410M-HD3P running 64-bit Ubuntu 24.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_step_counter_ip_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_step_counter_ip_0_0 (user.org:user:step_counter_ip:1.0) from (Rev. 10) to (Rev. 11)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_step_counter_ip_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'ax'
+
+-Upgrade has added port 'ay'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
+| Date         : Mon May 18 15:48:59 2026
+| Host         : user18-H410M-HD3P running 64-bit Ubuntu 24.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_step_counter_ip_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_step_counter_ip_0_0 (user.org:user:step_counter_ip:1.0) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
+| Date         : Mon May 18 11:23:15 2026
+| Host         : user18-H410M-HD3P running 64-bit Ubuntu 24.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_step_counter_ip_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_step_counter_ip_0_0 (user.org:user:step_counter_ip:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
+| Date         : Mon May 18 10:55:18 2026
+| Host         : user18-H410M-HD3P running 64-bit Ubuntu 24.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_step_counter_ip_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_step_counter_ip_0_0 (user.org:user:step_counter_ip:1.0) from (Rev. 7) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
+| Date         : Mon May 18 09:36:16 2026
+| Host         : user18-H410M-HD3P running 64-bit Ubuntu 24.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_myip_rxtx_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_myip_rxtx_0_0 (user.org:user:myip_rxtx:1.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
+| Date         : Mon May 18 09:09:37 2026
+| Host         : user18-H410M-HD3P running 64-bit Ubuntu 24.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_myip_rxtx_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_myip_rxtx_0_0 (user.org:user:myip_rxtx:1.0) from (Rev. 11) to (Rev. 12)
+
