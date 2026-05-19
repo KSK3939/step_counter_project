@@ -1,0 +1,3 @@
+/home/ming/workspace_ondevice_2/vitis_20206_2/Project_MPU_Counter/build/CMakeFiles/Project_MPU_Counter.elf.dir
+/home/ming/workspace_ondevice_2/vitis_20206_2/Project_MPU_Counter/build/CMakeFiles/edit_cache.dir
+/home/ming/workspace_ondevice_2/vitis_20206_2/Project_MPU_Counter/build/CMakeFiles/rebuild_cache.dir

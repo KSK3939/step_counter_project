@@ -1,0 +1,4 @@
+domain_path: /home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/export/platform_Project_MPU_Counter/sw/standalone_microblaze_riscv_0
+app_src_dir: /opt/Xilinx/Vitis/2024.2/data/embeddedsw/lib/sw_apps/hello_world
+template: hello_world
+lang: c
