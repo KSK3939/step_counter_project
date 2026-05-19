@@ -1,0 +1,292 @@
+The target system is: Generic -  - microblaze_riscv
+The host system is: Linux - 6.17.0-23-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/riscv64-unknown-elf-gcc 
+Build flags: ;-O2;-march=rv32i_zicsr_zifencei;-mabi=ilp32;-DSDT;;-MMD;-MP;;-specs=/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/Xilinx.spec;-I/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a-CMakeCCompilerId.d"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/gen_bsp/CMakeFiles/3.24.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/riscv64-unknown-elf-g++ 
+Build flags: ;-O2;-march=rv32i_zicsr_zifencei;-mabi=ilp32;-DSDT;;-MMD;-MP;;-specs=/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/Xilinx.spec;-I/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a-CMakeCXXCompilerId.d"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/gen_bsp/CMakeFiles/3.24.2/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/gen_bsp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/Xilinx/Vitis/2024.2/tps/lnx64/lopper-1.1.0/env/bin/ninja cmTC_be613 && [1/2] Building C object CMakeFiles/cmTC_be613.dir/CMakeCCompilerABI.c.obj
+Using built-in specs.
+Reading specs from /home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/Xilinx.spec
+COLLECT_GCC=/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/riscv32-xilinx-elf-gcc.real
+Target: riscv32-xilinx-elf
+Configured with: ../../../../../../work-shared/gcc-13.3.0-r0/gcc-13.3.0/configure --build=x86_64-linux --host=x86_64-oesdk-linux --target=riscv32-xilinx-elf --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/libexec/riscv32-xilinx-elf --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/lib/riscv32-xilinx-elf --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/scratch/jenkins-BUILDS-eSDK-toolchain-2024.2_toolchain-16_Standalone_riscv-tc/build/riscv-tc-x86_64/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-riscv32/13.3.0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++,fortran --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-libstdcxx-pch --program-prefix=riscv32-xilinx-elf- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/13.3.0 --with-build-time-tools=/scratch/jenkins-BUILDS-eSDK-toolchain-2024.2_toolchain-16_Standalone_riscv-tc/build/riscv-tc-x86_64/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-riscv32/13.3.0/recipe-sysroot-native/usr/riscv32-xilinx-elf/bin --with-sysroot=/not/exist --with-build-sysroot=/scratch/jenkins-BUILDS-eSDK-toolchain-2024.2_toolchain-16_Standalone_riscv-tc/build/riscv-tc-x86_64/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-riscv32/13.3.0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --with-multilib-generator='rv32i-ilp32--;rv32ic-ilp32--;rv32im-ilp32--;rv32imc-ilp32--;rv32imac-ilp32--;rv32e-ilp32e--;rv32imf-ilp32f--;rv32imfc-ilp32f--;rv32imafc-ilp32f--;rv32imfdc-ilp32d--;rv64i-lp64--;rv64ic-lp64--;rv64im-lp64--;rv64imc-lp64--;rv64imac-lp64--;rv64imf-lp64f--;rv64imfc-lp64f--;rv64imafc-lp64f--;rv64imfdc-lp64d--' --enable-multilib --disable-libstdcxx-pch --with-newlib --disable-threads --enable-plugins --with-gnu-as --disable-libitm --with-sysroot=/not/exist
+Thread model: single
+Supported LTO compression algorithms: zlib zstd
+gcc version 13.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='--sysroot=/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf' '-O2' '-march=rv32i_zicsr_zifencei' '-mabi=ilp32' '-D' 'SDT' '-MMD' '-MP' '-specs=/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/Xilinx.spec' '-I' '/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include' '-v' '-o' 'CMakeFiles/cmTC_be613.dir/CMakeCCompilerABI.c.obj' '-c' '-misa-spec=20191213' '-march=rv32i_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_be613.dir/'
+ /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../libexec/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/cc1 -quiet -v -I /home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include -imultilib rv32i/ilp32 -iprefix /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/ -isysroot /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf -MMD CMakeFiles/cmTC_be613.dir/CMakeCCompilerABI.c.d -MP -MQ CMakeFiles/cmTC_be613.dir/CMakeCCompilerABI.c.obj -D SDT /opt/Xilinx/Vitis/2024.2/tps/lnx64/cmake-3.24.2/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_be613.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=rv32i_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -march=rv32i_zicsr_zifencei -O2 -version -o /tmp/ccJFs15R.s
+GNU C17 (GCC) version 13.3.0 (riscv32-xilinx-elf)
+	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/../../../../../riscv32-xilinx-elf/include"
+ignoring duplicate directory "/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/../../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include"
+ignoring nonexistent directory "/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/lib/riscv32-xilinx-elf/13.3.0/include"
+ignoring nonexistent directory "/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/local/include"
+ignoring duplicate directory "/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/../../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include-fixed"
+ignoring nonexistent directory "/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/../../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/../../../../../riscv32-xilinx-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include
+ /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include
+ /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include-fixed
+ /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/include/
+End of search list.
+Compiler executable checksum: 39eaef7f7851e35a92521b32417fd0c5
+COLLECT_GCC_OPTIONS='--sysroot=/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf' '-O2' '-march=rv32i_zicsr_zifencei' '-mabi=ilp32' '-D' 'SDT' '-MMD' '-MP' '-specs=/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/Xilinx.spec' '-I' '/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include' '-v' '-o' 'CMakeFiles/cmTC_be613.dir/CMakeCCompilerABI.c.obj' '-c' '-misa-spec=20191213' '-march=rv32i_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_be613.dir/'
+ /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../libexec/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/as -v -I /home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include --traditional-format -march=rv32i_zicsr_zifencei -march=rv32i_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -o CMakeFiles/cmTC_be613.dir/CMakeCCompilerABI.c.obj /tmp/ccJFs15R.s
+GNU assembler version 2.42.0 (riscv32-xilinx-elf) using BFD version (GNU Binutils) 2.42.0.20240716
+COMPILER_PATH=/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../libexec/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/:/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../libexec/riscv32-xilinx-elf/gcc/
+LIBRARY_PATH=/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/lib/rv32i/ilp32/:/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/:/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/:/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/lib/riscv32-xilinx-elf/13.3.0/:/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf' '-O2' '-march=rv32i_zicsr_zifencei' '-mabi=ilp32' '-D' 'SDT' '-MMD' '-MP' '-specs=/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/Xilinx.spec' '-I' '/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include' '-v' '-o' 'CMakeFiles/cmTC_be613.dir/CMakeCCompilerABI.c.obj' '-c' '-misa-spec=20191213' '-march=rv32i_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_be613.dir/CMakeCCompilerABI.c.'
+[2/2] Linking C static library libcmTC_be613.a
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include]
+    add: [/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include]
+    add: [/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include-fixed]
+    add: [/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/include/]
+  end of search list found
+  collapse include dir [/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include] ==> [/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include]
+  collapse include dir [/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include] ==> [/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include]
+  collapse include dir [/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include-fixed] ==> [/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include-fixed]
+  collapse include dir [/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/include/] ==> [/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/riscv32-xilinx-elf/usr/include]
+  implicit include dirs: [/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include;/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include;/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include-fixed;/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/riscv32-xilinx-elf/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(riscv64-unknown-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/gen_bsp/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/opt/Xilinx/Vitis/2024.2/tps/lnx64/lopper-1.1.0/env/bin/ninja cmTC_be613 && [1/2] Building C object CMakeFiles/cmTC_be613.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/Xilinx.spec]
+  ignore line: [COLLECT_GCC=/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/riscv32-xilinx-elf-gcc.real]
+  ignore line: [Target: riscv32-xilinx-elf]
+  ignore line: [Configured with: ../../../../../../work-shared/gcc-13.3.0-r0/gcc-13.3.0/configure --build=x86_64-linux --host=x86_64-oesdk-linux --target=riscv32-xilinx-elf --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/libexec/riscv32-xilinx-elf --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/lib/riscv32-xilinx-elf --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/scratch/jenkins-BUILDS-eSDK-toolchain-2024.2_toolchain-16_Standalone_riscv-tc/build/riscv-tc-x86_64/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-riscv32/13.3.0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++,fortran --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-libstdcxx-pch --program-prefix=riscv32-xilinx-elf- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/13.3.0 --with-build-time-tools=/scratch/jenkins-BUILDS-eSDK-toolchain-2024.2_toolchain-16_Standalone_riscv-tc/build/riscv-tc-x86_64/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-riscv32/13.3.0/recipe-sysroot-native/usr/riscv32-xilinx-elf/bin --with-sysroot=/not/exist --with-build-sysroot=/scratch/jenkins-BUILDS-eSDK-toolchain-2024.2_toolchain-16_Standalone_riscv-tc/build/riscv-tc-x86_64/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-riscv32/13.3.0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --with-multilib-generator='rv32i-ilp32--]
+  ignore line: [rv32ic-ilp32--]
+  ignore line: [rv32im-ilp32--]
+  ignore line: [rv32imc-ilp32--]
+  ignore line: [rv32imac-ilp32--]
+  ignore line: [rv32e-ilp32e--]
+  ignore line: [rv32imf-ilp32f--]
+  ignore line: [rv32imfc-ilp32f--]
+  ignore line: [rv32imafc-ilp32f--]
+  ignore line: [rv32imfdc-ilp32d--]
+  ignore line: [rv64i-lp64--]
+  ignore line: [rv64ic-lp64--]
+  ignore line: [rv64im-lp64--]
+  ignore line: [rv64imc-lp64--]
+  ignore line: [rv64imac-lp64--]
+  ignore line: [rv64imf-lp64f--]
+  ignore line: [rv64imfc-lp64f--]
+  ignore line: [rv64imafc-lp64f--]
+  ignore line: [rv64imfdc-lp64d--' --enable-multilib --disable-libstdcxx-pch --with-newlib --disable-threads --enable-plugins --with-gnu-as --disable-libitm --with-sysroot=/not/exist]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 13.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf' '-O2' '-march=rv32i_zicsr_zifencei' '-mabi=ilp32' '-D' 'SDT' '-MMD' '-MP' '-specs=/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/Xilinx.spec' '-I' '/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include' '-v' '-o' 'CMakeFiles/cmTC_be613.dir/CMakeCCompilerABI.c.obj' '-c' '-misa-spec=20191213' '-march=rv32i_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_be613.dir/']
+  ignore line: [ /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../libexec/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/cc1 -quiet -v -I /home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include -imultilib rv32i/ilp32 -iprefix /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/ -isysroot /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf -MMD CMakeFiles/cmTC_be613.dir/CMakeCCompilerABI.c.d -MP -MQ CMakeFiles/cmTC_be613.dir/CMakeCCompilerABI.c.obj -D SDT /opt/Xilinx/Vitis/2024.2/tps/lnx64/cmake-3.24.2/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_be613.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=rv32i_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -march=rv32i_zicsr_zifencei -O2 -version -o /tmp/ccJFs15R.s]
+  ignore line: [GNU C17 (GCC) version 13.3.0 (riscv32-xilinx-elf)]
+  ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/../../../../../riscv32-xilinx-elf/include"]
+  ignore line: [ignoring duplicate directory "/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/../../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include"]
+  ignore line: [ignoring nonexistent directory "/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/lib/riscv32-xilinx-elf/13.3.0/include"]
+  ignore line: [ignoring nonexistent directory "/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/../../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/../../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/../../../../../riscv32-xilinx-elf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include]
+  ignore line: [ /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include]
+  ignore line: [ /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include-fixed]
+  ignore line: [ /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/include/]
+  ignore line: [End of search list.]
+  ignore line: [Compiler executable checksum: 39eaef7f7851e35a92521b32417fd0c5]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf' '-O2' '-march=rv32i_zicsr_zifencei' '-mabi=ilp32' '-D' 'SDT' '-MMD' '-MP' '-specs=/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/Xilinx.spec' '-I' '/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include' '-v' '-o' 'CMakeFiles/cmTC_be613.dir/CMakeCCompilerABI.c.obj' '-c' '-misa-spec=20191213' '-march=rv32i_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_be613.dir/']
+  ignore line: [ /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../libexec/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/as -v -I /home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include --traditional-format -march=rv32i_zicsr_zifencei -march=rv32i_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -o CMakeFiles/cmTC_be613.dir/CMakeCCompilerABI.c.obj /tmp/ccJFs15R.s]
+  ignore line: [GNU assembler version 2.42.0 (riscv32-xilinx-elf) using BFD version (GNU Binutils) 2.42.0.20240716]
+  ignore line: [COMPILER_PATH=/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../libexec/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/:/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../libexec/riscv32-xilinx-elf/gcc/]
+  ignore line: [LIBRARY_PATH=/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/lib/rv32i/ilp32/:/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/:/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/:/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/lib/riscv32-xilinx-elf/13.3.0/:/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf' '-O2' '-march=rv32i_zicsr_zifencei' '-mabi=ilp32' '-D' 'SDT' '-MMD' '-MP' '-specs=/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/Xilinx.spec' '-I' '/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include' '-v' '-o' 'CMakeFiles/cmTC_be613.dir/CMakeCCompilerABI.c.obj' '-c' '-misa-spec=20191213' '-march=rv32i_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_be613.dir/CMakeCCompilerABI.c.']
+  ignore line: [[2/2] Linking C static library libcmTC_be613.a]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/gen_bsp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/Xilinx/Vitis/2024.2/tps/lnx64/lopper-1.1.0/env/bin/ninja cmTC_abea6 && [1/2] Building CXX object CMakeFiles/cmTC_abea6.dir/CMakeCXXCompilerABI.cpp.obj
+Using built-in specs.
+Reading specs from /home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/Xilinx.spec
+COLLECT_GCC=/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/riscv32-xilinx-elf-g++.real
+Target: riscv32-xilinx-elf
+Configured with: ../../../../../../work-shared/gcc-13.3.0-r0/gcc-13.3.0/configure --build=x86_64-linux --host=x86_64-oesdk-linux --target=riscv32-xilinx-elf --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/libexec/riscv32-xilinx-elf --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/lib/riscv32-xilinx-elf --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/scratch/jenkins-BUILDS-eSDK-toolchain-2024.2_toolchain-16_Standalone_riscv-tc/build/riscv-tc-x86_64/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-riscv32/13.3.0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++,fortran --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-libstdcxx-pch --program-prefix=riscv32-xilinx-elf- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/13.3.0 --with-build-time-tools=/scratch/jenkins-BUILDS-eSDK-toolchain-2024.2_toolchain-16_Standalone_riscv-tc/build/riscv-tc-x86_64/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-riscv32/13.3.0/recipe-sysroot-native/usr/riscv32-xilinx-elf/bin --with-sysroot=/not/exist --with-build-sysroot=/scratch/jenkins-BUILDS-eSDK-toolchain-2024.2_toolchain-16_Standalone_riscv-tc/build/riscv-tc-x86_64/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-riscv32/13.3.0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --with-multilib-generator='rv32i-ilp32--;rv32ic-ilp32--;rv32im-ilp32--;rv32imc-ilp32--;rv32imac-ilp32--;rv32e-ilp32e--;rv32imf-ilp32f--;rv32imfc-ilp32f--;rv32imafc-ilp32f--;rv32imfdc-ilp32d--;rv64i-lp64--;rv64ic-lp64--;rv64im-lp64--;rv64imc-lp64--;rv64imac-lp64--;rv64imf-lp64f--;rv64imfc-lp64f--;rv64imafc-lp64f--;rv64imfdc-lp64d--' --enable-multilib --disable-libstdcxx-pch --with-newlib --disable-threads --enable-plugins --with-gnu-as --disable-libitm --with-sysroot=/not/exist
+Thread model: single
+Supported LTO compression algorithms: zlib zstd
+gcc version 13.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='--sysroot=/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf' '-O2' '-march=rv32i_zicsr_zifencei' '-mabi=ilp32' '-D' 'SDT' '-MMD' '-MP' '-specs=/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/Xilinx.spec' '-I' '/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include' '-v' '-o' 'CMakeFiles/cmTC_abea6.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-misa-spec=20191213' '-march=rv32i_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_abea6.dir/'
+ /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../libexec/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/cc1plus -quiet -v -I /home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include -imultilib rv32i/ilp32 -iprefix /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/ -isysroot /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf -MMD CMakeFiles/cmTC_abea6.dir/CMakeCXXCompilerABI.cpp.d -MP -MQ CMakeFiles/cmTC_abea6.dir/CMakeCXXCompilerABI.cpp.obj -D SDT /opt/Xilinx/Vitis/2024.2/tps/lnx64/cmake-3.24.2/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_abea6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=rv32i_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -march=rv32i_zicsr_zifencei -O2 -version -o /tmp/ccyPaP13.s
+GNU C++17 (GCC) version 13.3.0 (riscv32-xilinx-elf)
+	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/../../../../../riscv32-xilinx-elf/include"
+ignoring duplicate directory "/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/../../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include"
+ignoring nonexistent directory "/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/lib/riscv32-xilinx-elf/13.3.0/include"
+ignoring nonexistent directory "/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/local/include"
+ignoring duplicate directory "/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/../../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include-fixed"
+ignoring nonexistent directory "/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/../../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/../../../../../riscv32-xilinx-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include
+ /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include
+ /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include-fixed
+ /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/include/c++/13.3.0
+ /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/include/c++/13.3.0/riscv32-xilinx-elf/rv32i/ilp32
+ /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/include/c++/13.3.0/backward
+ /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/include/
+End of search list.
+Compiler executable checksum: a4b5f71eb02d0fe4d734b5c29583b479
+COLLECT_GCC_OPTIONS='--sysroot=/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf' '-O2' '-march=rv32i_zicsr_zifencei' '-mabi=ilp32' '-D' 'SDT' '-MMD' '-MP' '-specs=/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/Xilinx.spec' '-I' '/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include' '-v' '-o' 'CMakeFiles/cmTC_abea6.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-misa-spec=20191213' '-march=rv32i_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_abea6.dir/'
+ /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../libexec/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/as -v -I /home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include --traditional-format -march=rv32i_zicsr_zifencei -march=rv32i_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -o CMakeFiles/cmTC_abea6.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccyPaP13.s
+GNU assembler version 2.42.0 (riscv32-xilinx-elf) using BFD version (GNU Binutils) 2.42.0.20240716
+COMPILER_PATH=/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../libexec/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/:/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../libexec/riscv32-xilinx-elf/gcc/
+LIBRARY_PATH=/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/lib/rv32i/ilp32/:/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/:/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/:/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/lib/riscv32-xilinx-elf/13.3.0/:/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf' '-O2' '-march=rv32i_zicsr_zifencei' '-mabi=ilp32' '-D' 'SDT' '-MMD' '-MP' '-specs=/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/Xilinx.spec' '-I' '/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include' '-v' '-o' 'CMakeFiles/cmTC_abea6.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-misa-spec=20191213' '-march=rv32i_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_abea6.dir/CMakeCXXCompilerABI.cpp.'
+[2/2] Linking CXX static library libcmTC_abea6.a
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include]
+    add: [/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include]
+    add: [/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include-fixed]
+    add: [/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/include/c++/13.3.0]
+    add: [/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/include/c++/13.3.0/riscv32-xilinx-elf/rv32i/ilp32]
+    add: [/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/include/c++/13.3.0/backward]
+    add: [/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/include/]
+  end of search list found
+  collapse include dir [/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include] ==> [/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include]
+  collapse include dir [/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include] ==> [/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include]
+  collapse include dir [/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include-fixed] ==> [/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include-fixed]
+  collapse include dir [/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/include/c++/13.3.0] ==> [/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/riscv32-xilinx-elf/usr/include/c++/13.3.0]
+  collapse include dir [/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/include/c++/13.3.0/riscv32-xilinx-elf/rv32i/ilp32] ==> [/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/riscv32-xilinx-elf/usr/include/c++/13.3.0/riscv32-xilinx-elf/rv32i/ilp32]
+  collapse include dir [/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/include/c++/13.3.0/backward] ==> [/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/riscv32-xilinx-elf/usr/include/c++/13.3.0/backward]
+  collapse include dir [/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/include/] ==> [/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/riscv32-xilinx-elf/usr/include]
+  implicit include dirs: [/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include;/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include;/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include-fixed;/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/riscv32-xilinx-elf/usr/include/c++/13.3.0;/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/riscv32-xilinx-elf/usr/include/c++/13.3.0/riscv32-xilinx-elf/rv32i/ilp32;/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/riscv32-xilinx-elf/usr/include/c++/13.3.0/backward;/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/riscv32-xilinx-elf/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(riscv64-unknown-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/libsrc/build_configs/gen_bsp/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/opt/Xilinx/Vitis/2024.2/tps/lnx64/lopper-1.1.0/env/bin/ninja cmTC_abea6 && [1/2] Building CXX object CMakeFiles/cmTC_abea6.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/Xilinx.spec]
+  ignore line: [COLLECT_GCC=/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/riscv32-xilinx-elf-g++.real]
+  ignore line: [Target: riscv32-xilinx-elf]
+  ignore line: [Configured with: ../../../../../../work-shared/gcc-13.3.0-r0/gcc-13.3.0/configure --build=x86_64-linux --host=x86_64-oesdk-linux --target=riscv32-xilinx-elf --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/libexec/riscv32-xilinx-elf --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/lib/riscv32-xilinx-elf --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/scratch/jenkins-BUILDS-eSDK-toolchain-2024.2_toolchain-16_Standalone_riscv-tc/build/riscv-tc-x86_64/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-riscv32/13.3.0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++,fortran --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-libstdcxx-pch --program-prefix=riscv32-xilinx-elf- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/13.3.0 --with-build-time-tools=/scratch/jenkins-BUILDS-eSDK-toolchain-2024.2_toolchain-16_Standalone_riscv-tc/build/riscv-tc-x86_64/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-riscv32/13.3.0/recipe-sysroot-native/usr/riscv32-xilinx-elf/bin --with-sysroot=/not/exist --with-build-sysroot=/scratch/jenkins-BUILDS-eSDK-toolchain-2024.2_toolchain-16_Standalone_riscv-tc/build/riscv-tc-x86_64/work/x86_64-nativesdk-oesdk-linux/gcc-cross-canadian-riscv32/13.3.0/recipe-sysroot --with-plugin-ld=ld --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --with-multilib-generator='rv32i-ilp32--]
+  ignore line: [rv32ic-ilp32--]
+  ignore line: [rv32im-ilp32--]
+  ignore line: [rv32imc-ilp32--]
+  ignore line: [rv32imac-ilp32--]
+  ignore line: [rv32e-ilp32e--]
+  ignore line: [rv32imf-ilp32f--]
+  ignore line: [rv32imfc-ilp32f--]
+  ignore line: [rv32imafc-ilp32f--]
+  ignore line: [rv32imfdc-ilp32d--]
+  ignore line: [rv64i-lp64--]
+  ignore line: [rv64ic-lp64--]
+  ignore line: [rv64im-lp64--]
+  ignore line: [rv64imc-lp64--]
+  ignore line: [rv64imac-lp64--]
+  ignore line: [rv64imf-lp64f--]
+  ignore line: [rv64imfc-lp64f--]
+  ignore line: [rv64imafc-lp64f--]
+  ignore line: [rv64imfdc-lp64d--' --enable-multilib --disable-libstdcxx-pch --with-newlib --disable-threads --enable-plugins --with-gnu-as --disable-libitm --with-sysroot=/not/exist]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 13.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf' '-O2' '-march=rv32i_zicsr_zifencei' '-mabi=ilp32' '-D' 'SDT' '-MMD' '-MP' '-specs=/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/Xilinx.spec' '-I' '/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include' '-v' '-o' 'CMakeFiles/cmTC_abea6.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-misa-spec=20191213' '-march=rv32i_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_abea6.dir/']
+  ignore line: [ /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../libexec/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/cc1plus -quiet -v -I /home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include -imultilib rv32i/ilp32 -iprefix /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/ -isysroot /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf -MMD CMakeFiles/cmTC_abea6.dir/CMakeCXXCompilerABI.cpp.d -MP -MQ CMakeFiles/cmTC_abea6.dir/CMakeCXXCompilerABI.cpp.obj -D SDT /opt/Xilinx/Vitis/2024.2/tps/lnx64/cmake-3.24.2/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_abea6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=rv32i_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -march=rv32i_zicsr_zifencei -O2 -version -o /tmp/ccyPaP13.s]
+  ignore line: [GNU C++17 (GCC) version 13.3.0 (riscv32-xilinx-elf)]
+  ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/../../../../../riscv32-xilinx-elf/include"]
+  ignore line: [ignoring duplicate directory "/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/../../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include"]
+  ignore line: [ignoring nonexistent directory "/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/lib/riscv32-xilinx-elf/13.3.0/include"]
+  ignore line: [ignoring nonexistent directory "/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/../../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/../../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/../../../../../riscv32-xilinx-elf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include]
+  ignore line: [ /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include]
+  ignore line: [ /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/include-fixed]
+  ignore line: [ /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/include/c++/13.3.0]
+  ignore line: [ /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/include/c++/13.3.0/riscv32-xilinx-elf/rv32i/ilp32]
+  ignore line: [ /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/include/c++/13.3.0/backward]
+  ignore line: [ /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/include/]
+  ignore line: [End of search list.]
+  ignore line: [Compiler executable checksum: a4b5f71eb02d0fe4d734b5c29583b479]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf' '-O2' '-march=rv32i_zicsr_zifencei' '-mabi=ilp32' '-D' 'SDT' '-MMD' '-MP' '-specs=/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/Xilinx.spec' '-I' '/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include' '-v' '-o' 'CMakeFiles/cmTC_abea6.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-misa-spec=20191213' '-march=rv32i_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_abea6.dir/']
+  ignore line: [ /opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../libexec/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/as -v -I /home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include --traditional-format -march=rv32i_zicsr_zifencei -march=rv32i_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -o CMakeFiles/cmTC_abea6.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccyPaP13.s]
+  ignore line: [GNU assembler version 2.42.0 (riscv32-xilinx-elf) using BFD version (GNU Binutils) 2.42.0.20240716]
+  ignore line: [COMPILER_PATH=/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../libexec/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/:/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../libexec/riscv32-xilinx-elf/gcc/]
+  ignore line: [LIBRARY_PATH=/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/lib/rv32i/ilp32/:/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/riscv32-xilinx-elf/13.3.0/:/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/x86_64-oesdk-linux/usr/bin/riscv32-xilinx-elf/../../lib/riscv32-xilinx-elf/gcc/:/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/lib/riscv32-xilinx-elf/13.3.0/:/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/opt/Xilinx/Vitis/2024.2/gnu/riscv/lin/riscv64-unknown-elf/bin/../riscv32-xilinx-elf' '-O2' '-march=rv32i_zicsr_zifencei' '-mabi=ilp32' '-D' 'SDT' '-MMD' '-MP' '-specs=/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/Xilinx.spec' '-I' '/home/ming/workspace_ondevice_2/vitis_20206_2/platform_Project_MPU_Counter/microblaze_riscv_0/standalone_microblaze_riscv_0/bsp/include' '-v' '-o' 'CMakeFiles/cmTC_abea6.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-misa-spec=20191213' '-march=rv32i_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_abea6.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [[2/2] Linking CXX static library libcmTC_abea6.a]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+riscv32-xilinx-elf-gcc.real (GCC) 13.3.0
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
