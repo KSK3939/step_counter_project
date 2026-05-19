@@ -1,0 +1,18 @@
+axi_uartlite_0:
+- axi_uartlite
+- uartlite
+dotmatrix_ip_0:
+- dotmatrix_ip
+- None
+i2c_mpu_ip_0:
+- i2c_mpu_ip
+- None
+microblaze_riscv_0_axi_intc:
+- axi_intc
+- intc
+myip_rxtx_0:
+- myip_rxtx
+- None
+step_counter_ip_0:
+- step_counter_ip
+- None
